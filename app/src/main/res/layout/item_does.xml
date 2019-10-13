@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+        
+        <TextView
+            android:id="@+id/titles"
+            android:layout_marginTop="19dp"
+            android:textSize="22sp"
+            android:textColor="#000c5d"
+            android:text="Buy car"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/description"
+            android:textSize="18sp"
+            android:textColor="#adadad"
+            android:layout_marginTop="8dp"
+            android:text="Near Nodda"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp">
+        
+        <TextView
+            android:id="@+id/date"
+            android:textSize="18sp"
+            android:textColor="#f63ea5"
+            android:layout_marginTop="8dp"
+            android:text="Tomorrow"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
